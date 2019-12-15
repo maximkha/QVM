@@ -8,7 +8,7 @@ QVM is a quantum computer simulator that was written by me in JavaScript. I impl
 
 When you open `demo.html` you will see this:
 
-![screenA](img\screenA.png)
+![screenA](C:\Users\maxim\Desktop\js\sqs\readme\screenA.png)
 
 
 
