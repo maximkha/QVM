@@ -30,40 +30,40 @@
         - Arguments:
           - `comp`
             - A `Complex` object to subtract the current `Complex` number from.
-      - Returns: A new `Complex` which holds the result of ![API.docs.LaTexExport0.png](img/API.docs.LaTexExport0.png).
+      - Returns: A new `Complex` which holds the result of <img valign="middle" src="img/API.docs.LaTexExport0.png">.
     - `Complex.Add(comp)`
       - Type: `Method`
       - Description:  Adds the current `Complex` with the argument `comp`.
       - Arguments:
         - `comp`
           - A `Complex` object to add the current `Complex` number with.
-      - Returns: A new `Complex` which holds the result of  ![API.docs.LaTexExport1.png](img/API.docs.LaTexExport1.png).
+      - Returns: A new `Complex` which holds the result of  <img valign="middle" src="img/API.docs.LaTexExport1.png">.
     - `Complex.Mult(comp)`
       - Type: `Method`
       - Description: Multiplies the current `Complex` by the argument  `comp`.
       - Arguments:
         - `comp`
           - A `Complex` object to multiply the current `Complex` number with.
-      - Returns: A new `Complex` which holds the result of ![API.docs.LaTexExport2.png](img/API.docs.LaTexExport2.png).
+      - Returns: A new `Complex` which holds the result of <img valign="middle" src="img/API.docs.LaTexExport2.png">.
     - `Complex.Inverse()`
       - Type: `Method`
       - Description: Inverts the current `Complex`.
-      - Returns: A new `Complex` which holds the result of ![API.docs.LaTexExport3.png](img/API.docs.LaTexExport3.png).
+      - Returns: A new `Complex` which holds the result of <img valign="middle" src="img/API.docs.LaTexExport3.png">.
     - `Complex.Negate()`
       - Type: `Method`
       - Description: Negates the current `Complex`.
-      - Returns: A new `Complex` which holds the result of ![API.docs.LaTexExport4.png](img/API.docs.LaTexExport4.png).
+      - Returns: A new `Complex` which holds the result of <img valign="middle" src="img/API.docs.LaTexExport4.png">.
     - `Complex.Div(comp)`
       - Type: `Method`
       - Description: Multiplies the current `Complex` by the inverse of `comp`.
       - Arguments:
         - `comp`
           - A `Complex` which is inverted and multiplied by the current `Complex`.
-      - Returns: A new `Complex` which holds the result of ![API.docs.LaTexExport5.png](img/API.docs.LaTexExport5.png).
+      - Returns: A new `Complex` which holds the result of <img valign="middle" src="img/API.docs.LaTexExport5.png">.
     - `Complex.Abs()`
       - Type: `Method`
       - Description: Takes the absolute value of the current `Complex`.
-      - Returns: A new `Complex` which holds the result of ![API.docs.LaTexExport6.png](img/API.docs.LaTexExport6.png).
+      - Returns: A new `Complex` which holds the result of <img valign="middle" src="img/API.docs.LaTexExport6.png">.
     - `Complex.toString()`
       - Type: `Method`
       - Description: Creates a string representation of the current `Complex`.
@@ -71,7 +71,7 @@
     - `Complex.Sqr()`
       - Type: `Method`
       - Description: Squares the current `Complex`.
-      - Returns: A new `Complex` which holds the result of ![API.docs.LaTexExport7.png](img/API.docs.LaTexExport7.png)
+      - Returns: A new `Complex` which holds the result of <img valign="middle" src="img/API.docs.LaTexExport7.png">
     - `Complex.Clone()`
       - Type: `Method`
       - Description: Creates a clone of the current `Complex`.
@@ -100,42 +100,42 @@
       - Description: A representation of the `Matrix` in memory.
     - `Matrix.Set(i, j, v)`
       - Type: `Method`
-      - Description: Sets the value of the matrix at ![API.docs.LaTexExport8.png](img/API.docs.LaTexExport8.png). To create a `Matrix` do not use this method.
+      - Description: Sets the value of the matrix at <img valign="middle" src="img/API.docs.LaTexExport8.png">. To create a `Matrix` do not use this method.
       - Arguments:
         - `i`
           - An `Int` which represents the width offset in the `Matrix`.
         - `j`
           - An `Int` which represents the height offset in the `Matrix`.
         - `v`
-          - A `Complex` which represents the updated value of the `Matrix` at ![API.docs.LaTexExport9.png](img/API.docs.LaTexExport8.png).
+          - A `Complex` which represents the updated value of the `Matrix` at <img valign="middle" src="img/API.docs.LaTexExport8.png">.
     - `Matrix.Get(i, j)`
       - Type: `Method`
-      - Description: A method that retrieves the current value of ![API.docs.LaTexExport10.png](img/API.docs.LaTexExport8.png).
+      - Description: A method that retrieves the current value of <img valign="middle" src="img/API.docs.LaTexExport8.png">.
       - Arguments:
         - `i`
           - An `Int` which represents the width offset in the `Matrix`.
         - `j`
           - An `Int` which represents the height offset in the `Matrix`.
-      - Returns: A `Complex` `Object` which holds the value of ![API.docs.LaTexExport11.png](img/API.docs.LaTexExport8.png).
+      - Returns: A `Complex` `Object` which holds the value of <img valign="middle" src="img/API.docs.LaTexExport8.png">.
     - `Matrix.Mult(mat)`
       - Type: `Method`
       - Description:  Multiplies the current `Matrix` by `mat`
       - Arguments:
         - `mat`
           - The `Matrix` to multiply the current `Matrix` with.
-      - Returns: A new `Matrix` `Object` which holds the value of ![API.docs.LaTexExport12.png](img/API.docs.LaTexExport9.png).
+      - Returns: A new `Matrix` `Object` which holds the value of <img valign="middle" src="img/API.docs.LaTexExport9.png">.
     - `Matrix.Rotate90()`
       - Type: `Method`
       - Description: Rotates the `Matrix` by 90.
-      - Returns: A new `Matrix` `Object` which holds the value of ![API.docs.LaTexExport13.png](img/API.docs.LaTexExport10.png).
+      - Returns: A new `Matrix` `Object` which holds the value of <img valign="middle" src="img/API.docs.LaTexExport10.png">.
     - `Matrix.CounterRotate90()`
       - Type: `Method`
       - Description: Rotates the `Matrix` by -90.
-      - Returns: A new `Matrix` `Object` which holds the value of ![API.docs.LaTexExport14.png](img/API.docs.LaTexExport11.png).
+      - Returns: A new `Matrix` `Object` which holds the value of <img valign="middle" src="img/API.docs.LaTexExport11.png">.
     - `Matrix.VerticleFlatten()`
       - Type: `Method`
       - Description: Returns an `Array` which holds the first vertical column of the `Matrix`.
-      - Returns: A `Array` `Object` which holds the value of ![API.docs.LaTexExport15.png](img/API.docs.LaTexExport12.png).
+      - Returns: A `Array` `Object` which holds the value of <img valign="middle" src="img/API.docs.LaTexExport12.png">.
     - `Matrix.toString()`
       - Type: `Method`
       - Description: Creates a `String` that represents the `Matrix`.
@@ -225,13 +225,13 @@
       - Description: A `Matrix` that hold the vector that represents the state of the quantum computer.
     - `StateVector.SetBinUnitVector(states)`
       - Type: `Method`
-      - Description: Sets qubit indexes to ![API.docs.LaTexExport16.png](img/API.docs.LaTexExport13.png).
+      - Description: Sets qubit indexes to <img valign="middle" src="img/API.docs.LaTexExport13.png">.
       - Arguments:
         - `states`
-          - An `Array` of qubit indexes to set to ![API.docs.LaTexExport17.png](img/API.docs.LaTexExport13.png).
+          - An `Array` of qubit indexes to set to <img valign="middle" src="img/API.docs.LaTexExport13.png">.
     - `StateVector.ZeroBinUnitVector()`
       - Type: `Method`
-      - Description: Sets all qubits to ![API.docs.LaTexExport18.png](img/API.docs.LaTexExport14.png).
+      - Description: Sets all qubits to <img valign="middle" src="img/API.docs.LaTexExport14.png">.
     - `StateVector.Flatten()`
       - Type: `Method`
       - Description: Creates a one dimensional `Array` of `Complex` objects that represents the `UnitVec`.
@@ -281,11 +281,11 @@
   - `incArr(len)`
 
     - Type: `Method`
-    - Description: Creates an `Array` that counts up from ![API.docs.LaTexExport19.png](img/API.docs.LaTexExport15.png).
+    - Description: Creates an `Array` that counts up from <img valign="middle" src="img/API.docs.LaTexExport15.png">.
     - Arguments:
       - `len`
         - A JavaScript `Int` that length.
-    - Returns: A new `Array` that counts up from ![API.docs.LaTexExport20.png](img/API.docs.LaTexExport15.png).
+    - Returns: A new `Array` that counts up from <img valign="middle" src="img/API.docs.LaTexExport15.png">.
 
   - `baseArrToN(baseArr, base = 2)`
 
